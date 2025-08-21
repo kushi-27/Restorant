@@ -1,0 +1,814 @@
+/* ---------header---------- */
+header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+
+
+header .containar {
+   padding: 10px;
+}
+
+.containar nav ul li {
+   padding: 0 3px;
+   text-transform: uppercase;
+}
+
+.containar nav ul+a {
+   background-color: var(--orange800--);
+   padding: 8px;
+   border-radius: 2px;
+   font-family: var(--nunito--);
+}
+
+nav ul li:first-child {
+   color: var(--orange800--);
+}
+
+.containar a {
+   color: var(--white--);
+   margin-left: 20px;
+}
+
+
+.containar ul li a:hover {
+   color: var(--orange800--);
+   transition: 0.5s;
+}
+
+.containar nav>a:hover {
+   background-color: var(--orange700--);
+   transition: 0.5s;
+}
+
+.containar .logo {
+   color: var(--orange800--);
+   font-family: var(--nunito--);
+}
+
+header .menu-icon {
+   display: none;
+   color: beige;
+   text-align: center;
+}
+
+header .menu-icon i::before {
+   padding: 5px;
+   border: 1px solid white;
+}
+
+/* ---------main--------- */
+
+main {
+   margin-bottom: 94px;
+}
+
+main .containar {
+   padding-top: 96px;
+   padding-bottom: 96px;
+}
+
+main .containar {
+   background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)), url(../img/bg-hero\ \(1\).jpg);
+   background-size: cover;
+   /* height: 650px; */
+}
+
+.main-info h2 {
+   color: var(--white--);
+   font-size: 64px;
+   font-weight: 800;
+   line-height: 1.2;
+   font-family: var(--nunito--);
+   margin: 0 0 8px;
+   padding: 0 24px;
+}
+
+.main-info p {
+   color: var(--white--);
+   font-size: 16px;
+   line-height: 1.2;
+   margin-bottom: 24px;
+   padding: 0 24px;
+}
+
+.main-info a {
+   padding: 16px 48px;
+   font-size: 16px;
+   font-family: var(--nunito--);
+   margin-right: 16px;
+
+}
+
+.main-image {
+   padding: 24px;
+}
+
+/* ---------section--------- */
+
+
+/* ---------service--------- */
+section .service {
+   padding: 84px 12px;
+}
+
+section .service .service-item h2 {
+   font-size: 48px;
+   color: var(--orange800--);
+
+}
+
+
+.service .col3 .service-item {
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+   padding: 24px;
+   margin: 10px;
+}
+
+.service .col3 .service-item:hover {
+   background-color: var(--orange800--);
+   transition: .5s;
+   color: var(--white--);
+
+}
+
+.service .col3 .service-item:hover i {
+   color: var(--white--);
+   transition: .5s;
+}
+
+section .service .service-item h3 {
+   font-weight: 800;
+   line-height: 1.2;
+   font-family: var(--nunito--);
+
+}
+
+
+section .service .service-item p {
+   font-weight: 400;
+   line-height: 1.5;
+   font-family: var(--heebo--);
+   margin-bottom: 16px;
+
+}
+
+
+/* ---------about-us--------- */
+.about .containar .about-galley .about-img {
+   margin: 8px;
+}
+
+.about .containar .about-galley #img1 {
+   width: 75%;
+   margin-top: 25%;
+}
+
+.about .containar .about-galley #img2 {
+   width: 75%;
+   margin-left: auto;
+}
+
+.about .about-info {
+   position: relative;
+}
+
+.about .about-info h5 {
+   color: var(--orange800--);
+   font-family: var(--pacifico--);
+   margin: 8px;
+   font-size: 20px;
+}
+
+.about .about-info h5::after {
+   position: absolute;
+   content: "";
+   width: 24px;
+   height: 2px;
+   background-color: var(--orange800--);
+   top: 50px;
+   left: 120 px;
+}
+
+.about .about-info h1 {
+   font-family: var(--nunito--);
+   font-size: 40px;
+   line-height: 48px;
+   font-weight: 800;
+   margin: 24px;
+}
+
+.about .about-info i {
+   color: var(--orange800--);
+}
+
+.about .about-info {
+   padding: 24px;
+
+}
+
+.about .about-info .ptag {
+   font-family: var(--heebo----);
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 400;
+   margin-bottom: 24px;
+}
+
+.about .about-info h4 {
+   font-size: 48px;
+   color: var(--orange800--);
+   font-family: var(--nunito--);
+   font-weight: 800;
+}
+
+/* .about-info .exp ul li{
+   border-left: 14px;
+   color: var(--orange800--);
+} */
+
+.about-info .years {
+   padding-left: 24px;
+}
+
+.about-info .years p {
+   color: var(--gray--);
+   font-family: var(--heebo--);
+   font-weight: 400;
+   line-height: 1.5;
+}
+
+.about-info .years span {
+   color: var(--black--);
+   font-family: var(--nunito----);
+   font-weight: 800;
+   line-height: 1.2;
+}
+
+/* ---------menu--------- */
+.menu {
+   position: relative;
+   margin-top: 96px;
+   padding-bottom: 48px;
+}
+
+.menu .food-header h5 {
+   position: relative;
+}
+
+.menu .food-header h5::before {
+   content: "";
+   position: absolute;
+   top: 13px;
+   left: 250px;
+   background-color: var(--orange800--);
+   width: 45px;
+   height: 2px;
+}
+
+.menu .food-header h5::after {
+   content: "";
+   position: absolute;
+   top: 13px;
+   right: 250px;
+   background-color: var(--orange800--);
+   width: 45px;
+   height: 2px;
+}
+
+
+.menu .food-header h5 {
+   color: var(--orange800--);
+   font-family: var(--pacifico--);
+   font-size: 20px;
+   line-height: 24px;
+   font-weight: 400;
+
+}
+
+.menu .food-details .food-info {
+   border-bottom: 1px solid gray;
+}
+
+.menu .food-details .food-name {
+   margin-right: 295px;
+}
+
+.menu .food-header h3 {
+   color: var(--black--);
+   font-family: var(--nunito--);
+   font-size: 40px;
+   line-height: 48px;
+   font-weight: 800;
+   margin-bottom: 48px;
+}
+
+.menu .menu-nav .bordar {
+   border-bottom: 1px solid var(--gray--);
+   padding-bottom: 8px;
+
+}
+
+.menu .menu-nav .food .menu-div span {
+   color: var(--gray--);
+   font-family: var(--heebo--);
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: 400;
+}
+
+
+
+.menu .menu-nav .food .menu-div p {
+   color: var(--black--);
+   font-family: var(--nunito--);
+   font-size: 16px;
+   line-height: 20px;
+   font-weight: 800;
+}
+
+.menu .menu-nav .menu-icone {
+   text-align: center;
+}
+
+.menu .menu-nav .menu-icone i {
+   color: var(--orange800--);
+}
+
+.menu .food-list .food-details .image {
+   height: 80px;
+   width: 80px;
+   margin-right: 8px;
+}
+
+.menu h5 {
+   color: var(--orange-800);
+   text-align: center;
+   font-size: 20px;
+   font-family: var(--pacifico);
+   margin-bottom: 8px;
+}
+
+.menu h5::before {
+   content: "";
+   position: absolute;
+   top: 17px;
+   left: 655px;
+   background-color: var(--orange-800);
+   width: 45px;
+   height: 2px;
+}
+
+.menu h5::after {
+   content: "";
+   position: absolute;
+   top: 19px;
+   right: 655px;
+   background-color: var(--orange-800);
+   width: 45px;
+   height: 2px;
+}
+
+.menu h3 {
+   font-size: 48px;
+   text-align: center;
+   font-family: var(--nunito);
+   font-weight: 800;
+   margin-bottom: 48px;
+
+}
+
+.menu .menu-nav {
+   margin-top: 8px;
+   text-align: center;
+   margin-bottom: 32px;
+}
+
+.menu .menu-nav .food {
+   border-bottom: 2px solid var(--gray-600);
+}
+
+.menu .menu-nav #boder {
+   border-bottom: var(--orange-800) solid 3px;
+}
+
+.menu .menu-nav .menu-icone {
+   padding-bottom: 8px;
+   margin-right: 24px;
+}
+
+.menu .menu-nav i {
+   color: var(--orange-700);
+   font-size: 40px;
+}
+
+.menu .menu-nav span {
+   color: var(--gray);
+}
+
+.menu .menu-nav p {
+   font-size: 16px;
+   font-family: var(--nunito);
+   font-weight: 800;
+}
+
+.menu .menu-nav .menu-div {
+   padding-left: 16px;
+}
+
+.food-list .food-details {
+   margin-top: 24px;
+   padding: 0 12px;
+
+}
+
+.menu .food-list .menu-list .menu-image {
+   width: 80px;
+   height: 80px;
+}
+
+
+
+/* ---------Reservation-------- */
+
+
+.reservation .reservation-vedio {
+   background: url(../img/video.jpg );
+
+}
+
+.reservation .reservation-form .reservation-headar h5 {
+   font-family: var(--pacifico--);
+   font-size: 20px;
+   line-height: 24px;
+   font-weight: 400;
+   color: var(--orange800--);
+   position: relative;
+   display: inline-block;
+}
+
+.reservation .reservation-form .reservation-headar h5::after {
+   content: "";
+   position: absolute;
+   top: 13px;
+   right: -50px;
+   background-color: var(--orange800--);
+   width: 45px;
+   height: 2px;
+}
+
+.reservation .reservation-form .reservation-headar h2 {
+   font-family: var(--nunito--);
+   font-size: 40px;
+   line-height: 48px;
+   font-weight: 800;
+   color: var(--white--);
+}
+
+.reservation .reservation-form {
+   padding: 48px;
+   background-color: var(--black--);
+}
+
+.reservation .reservation-vedio .play-button {
+   margin: 0 auto;
+   color: var(--orange800--);
+   font-size: 100px;
+}
+
+.reservation .reservation-form .form-detail .col6,
+.reservation .reservation-form .form-detail .col12 {
+   padding: 16px;
+}
+
+.reservation .reservation-form .form-detail input {
+   padding: 12px 18px;
+   width: 100%;
+}
+
+.reservation .reservation-form .form-detail select {
+   padding: 12px 18px;
+   width: 100%;
+}
+
+.reservation .reservation-form .form-detail textarea {
+   padding: 12px 0px;
+   width: 100%;
+}
+
+.reservation .reservation-form .form-detail a {
+   padding: 12px 18px;
+   width: 100%;
+   background-color: var(--orange800--);
+   margin: 0;
+}
+
+
+/* ---------Members--------- */
+.Members .header {
+   position: relative;
+}
+
+.Members .header::before {
+   content: "";
+   height: 2px;
+   width: 45px;
+   background-color: var(--orange800--);
+   top: 20px;
+   left: 455px;
+   position: absolute;
+}
+
+.Members .header::after {
+   content: "";
+   height: 2px;
+   width: 45px;
+   background-color: var(--orange800--);
+   top: 20px;
+   right: 455px;
+   position: absolute;
+}
+
+.Members .Member-1 {
+   margin: 8px;
+   padding: 48px 12px 0px 16px;
+   height: calc(424px - 45px);
+   overflow: hidden;
+}
+
+.Members .Member-1:hover {
+   height: 424px;
+   transition: .5s;
+}
+
+.Members .header h5 {
+   text-align: center;
+   font-family: var(--pacifico--);
+   font-size: 20px;
+   margin: 8px;
+   color: var(--orange800--);
+   font-weight: 200;
+}
+
+.Members .header h1 {
+   text-align: center;
+   font-family: var(--nunito--);
+   font-size: 40px;
+   margin-bottom: 48px;
+   color: var(--black--);
+   line-height: 1.2;
+   font-weight: 800;
+}
+
+.m-img {
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.Members .Member-1 {
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.Members .Member-1 h5 {
+   text-align: center;
+   font-family: var(--nunito--);
+   font-size: 20px;
+   line-height: 24px;
+   font-weight: 800;
+   color: var(--black--);
+   margin-top: 24px;
+}
+
+.Members .Member-1 p {
+   text-align: center;
+   font-family: var(--heebo--);
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: 400;
+   color: var(--gray--);
+}
+
+.Members .Member-1 .icons {
+   text-align: center;
+   margin-top: 20px;
+}
+
+.Members .Member-1 .icons i {
+   background-color: var(--orange800--);
+
+   display: inline-block;
+   border-radius: 50px 50px 0 0;
+   margin: 8px 8px 0 8px;
+   width: 38px;
+   height: 38px;
+   color: white;
+   line-height: 38px;
+}
+
+/* ---------client-review--------- */
+.client-review {
+   margin-top: 96px;
+   margin-bottom: 96px;
+}
+
+.client-review .review-header {
+   position: relative;
+}
+
+.client-review .review-header::before {
+   content: "";
+   height: 2px;
+   width: 45px;
+   background-color: var(--orange800--);
+   top: 20px;
+   left: 455px;
+   position: absolute;
+}
+
+.client-review .review-header::after {
+   content: "";
+   height: 2px;
+   width: 45px;
+   background-color: var(--orange800--);
+   top: 20px;
+   right: 455px;
+   position: absolute;
+}
+
+
+.client-review .review-card .review-header h5 {
+   text-align: center;
+   font-family: var(--pacifico--);
+   font-size: 20px;
+   margin: 8px;
+   color: var(--orange800--);
+   font-weight: 200;
+}
+
+.client-review .review-card .review-header h1 {
+   text-align: center;
+   font-family: var(--nunito--);
+   font-size: 40px;
+   margin-bottom: 48px;
+   color: var(--black--);
+   line-height: 1.2;
+   font-weight: 800;
+}
+
+.client-review .review-card .review .review-card-item {
+   padding: 24px;
+   margin: 10px;
+   border: 1px solid var(--gray--);
+}
+
+.client-review .review i {
+   font-size: 36px;
+   font-weight: 900;
+   line-height: 32px;
+   color: var(--orange800--);
+   margin-bottom: 16px;
+}
+
+.client-review .review p {
+   color: var(--gray--);
+   font-family: Heebo, sans-serif;
+   font-weight: 400;
+   line-height: 1.5;
+   margin-bottom: 16px;
+   text-align: justify;
+}
+
+.client-review .review-card .review .clinet-img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+   overflow: hidden;
+
+}
+
+.client-review .review-card .review h5 {
+   font-family: var(--nunito--);
+   font-weight: 800;
+   line-height: 24px;
+   font-size: 20px;
+   color: var(--black--);
+   padding-left: 16px;
+}
+
+.client-review .review-card .review p {
+   font-family: var(--heebo--);
+   font-weight: 400;
+   line-height: 21px;
+   font-size: 14px;
+   color: var(--gray--);
+   padding-left: 16px;
+}
+
+/* ---------footer--------- */
+
+/* ---------footer-up--------- */
+.footer {
+   background-color: var(--black--);
+   /* margin-top: 48px; */
+   padding: 48px 12px 0px;
+}
+
+.footer-up .tittle a {
+   display: block;
+   color: var(--white--);
+   margin-bottom: 5px;
+}
+
+.footer-up .tittle h4 {
+   color: var(--orange800--);
+   font-family: var(--pacifico--);
+   font-weight: 400;
+   line-height: 28px;
+   font-size: 24px;
+   margin-bottom: 24px;
+   position: relative;
+   display: inline-block;
+}
+
+.footer-up .tittle h4::after {
+   content: "";
+   height: 2px;
+   width: 45px;
+   position: absolute;
+   background-color: orange;
+   top: 20px;
+   right: -50px;
+}
+
+.footer-up .tittle p {
+   font-family: var(--heebo--);
+   font-weight: 400;
+   line-height: 24px;
+   font-size: 16px;
+   color: var(--white--);
+   margin-bottom: 8px;
+}
+
+.footer-up .tittle h5 {
+   color: var(--white--);
+   font-family: var(--nunito--);
+   font-weight: 400;
+   line-height: 28px;
+   font-size: 24px;
+   margin-bottom: 8px;
+}
+
+.footer-up .last-tittle .button {
+   position: relative;
+}
+
+.footer-up .last-tittle .button input {
+   width: 100%;
+   padding: 8px 0;
+   text-align: left;
+   display: inline-block;
+   padding: 16px 48px 16px 24px;
+}
+
+.footer-up .last-tittle .button button {
+   position: absolute;
+   top: 10px;
+   right: 20px;
+   background-color: var(--orange800--);
+   padding: 8px;
+   border: none;
+   color: var(--white--);
+
+}
+
+/* ---------footer-sub--------- */
+footer .footer-bottom {
+   padding: 25px 0;
+}
+
+footer .footer-bottom p {
+   line-height: 2.5;
+   text-align: left;
+   color: var(--white--);
+}
+
+
+footer .footer-bottom ul {
+   justify-content: right;
+}
+
+footer .footer-bottom ul a {
+   border-right: 1px solid rgba(255, 255, 255, .1);
+   margin-right: 15px;
+   padding-right: 15px;
+   height: 16px;
+   align-items: center;
+}
+
+footer .footer-bottom ul a:last-child {
+   margin-right: 0;
+   padding-right: 0;
+   border: none;
+}
