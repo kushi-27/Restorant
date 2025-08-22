@@ -94,12 +94,13 @@ main .containar {
    padding: 0 24px;
 }
 
-.main-info a {
+main .main-info a {
    padding: 16px 48px;
    font-size: 16px;
    font-family: var(--nunito--);
    margin-right: 16px;
-
+   background-color: var(--orange800--);
+   border-radius: 3px;
 }
 
 .main-image {
@@ -209,7 +210,7 @@ section .service .service-item p {
 
 }
 
-.about .about-info .ptag {
+.about .about-info .p-tag {
    font-family: var(--heebo----);
    font-size: 16px;
    line-height: 24px;
@@ -223,11 +224,6 @@ section .service .service-item p {
    font-family: var(--nunito--);
    font-weight: 800;
 }
-
-/* .about-info .exp ul li{
-   border-left: 14px;
-   color: var(--orange800--);
-} */
 
 .about-info .years {
    padding-left: 24px;
@@ -247,6 +243,12 @@ section .service .service-item p {
    line-height: 1.2;
 }
 
+.about .exp h4{
+   display:inline-block;
+   border-left: 7px solid var(--orange800--);
+   border-radius:2px;
+   padding-left: 5px;
+}
 /* ---------menu--------- */
 .menu {
    position: relative;
@@ -261,8 +263,8 @@ section .service .service-item p {
 .menu .food-header h5::before {
    content: "";
    position: absolute;
-   top: 13px;
-   left: 250px;
+   top: 17px;
+   left: 655px;
    background-color: var(--orange800--);
    width: 45px;
    height: 2px;
@@ -271,8 +273,8 @@ section .service .service-item p {
 .menu .food-header h5::after {
    content: "";
    position: absolute;
-   top: 13px;
-   right: 250px;
+   top: 17px;
+   right: 655px;
    background-color: var(--orange800--);
    width: 45px;
    height: 2px;
@@ -434,7 +436,7 @@ section .service .service-item p {
 /* ---------Reservation-------- */
 
 
-.reservation .reservation-vedio {
+.reservation .reservation-video {
    background: url(../img/video.jpg );
 
 }
@@ -472,7 +474,7 @@ section .service .service-item p {
    background-color: var(--black--);
 }
 
-.reservation .reservation-vedio .play-button {
+.reservation .reservation-video .play-button {
    margin: 0 auto;
    color: var(--orange800--);
    font-size: 100px;
@@ -507,11 +509,11 @@ section .service .service-item p {
 
 
 /* ---------Members--------- */
-.Members .header {
+.Members .header h5{
    position: relative;
 }
 
-.Members .header::before {
+.Members .header h5::before {
    content: "";
    height: 2px;
    width: 45px;
@@ -521,7 +523,7 @@ section .service .service-item p {
    position: absolute;
 }
 
-.Members .header::after {
+.Members .header h5::after {
    content: "";
    height: 2px;
    width: 45px;
@@ -531,14 +533,15 @@ section .service .service-item p {
    position: absolute;
 }
 
-.Members .Member-1 {
+.Members .Member-team {
    margin: 8px;
    padding: 48px 12px 0px 16px;
-   height: calc(424px - 45px);
+   height: calc(100% - 65px);
    overflow: hidden;
+   transition: .5s;
 }
 
-.Members .Member-1:hover {
+.Members .Member-team:hover {
    height: 424px;
    transition: .5s;
 }
@@ -567,11 +570,11 @@ section .service .service-item p {
    overflow: hidden;
 }
 
-.Members .Member-1 {
+.Members .Member-team {
    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.Members .Member-1 h5 {
+.Members .Member-team h5 {
    text-align: center;
    font-family: var(--nunito--);
    font-size: 20px;
@@ -581,7 +584,7 @@ section .service .service-item p {
    margin-top: 24px;
 }
 
-.Members .Member-1 p {
+.Members .Member-team p {
    text-align: center;
    font-family: var(--heebo--);
    font-size: 14px;
@@ -590,12 +593,12 @@ section .service .service-item p {
    color: var(--gray--);
 }
 
-.Members .Member-1 .icons {
+.Members .Member-team .icons {
    text-align: center;
    margin-top: 20px;
 }
 
-.Members .Member-1 .icons i {
+.Members .Member-team .icons i {
    background-color: var(--orange800--);
 
    display: inline-block;
@@ -783,7 +786,7 @@ section .service .service-item p {
 
 }
 
-/* ---------footer-sub--------- */
+/* ---------footer-bottom--------- */
 footer .footer-bottom {
    padding: 25px 0;
 }
