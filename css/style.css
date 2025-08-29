@@ -107,6 +107,17 @@ main .main-info a {
    padding: 24px;
 }
 
+main .main-image img {
+   animation: mymove 25s linear infinite;
+   padding: 5px;
+}
+
+@keyframes mymove {
+   100% {
+      transform: rotate(360deg);
+   }
+}
+
 /* ---------section--------- */
 
 
@@ -190,7 +201,7 @@ section .service .service-item p {
    height: 2px;
    background-color: var(--orange800--);
    top: 50px;
-   left: 120 px;
+   left: 120px;
 }
 
 .about .about-info h1 {
@@ -243,12 +254,13 @@ section .service .service-item p {
    line-height: 1.2;
 }
 
-.about .exp h4{
-   display:inline-block;
+.about .exp h4 {
+   display: inline-block;
    border-left: 7px solid var(--orange800--);
-   border-radius:2px;
+   border-radius: 2px;
    padding-left: 5px;
 }
+
 /* ---------menu--------- */
 .menu {
    position: relative;
@@ -256,15 +268,21 @@ section .service .service-item p {
    padding-bottom: 48px;
 }
 
+menu .food-header {
+   text-align: center;
+}
+
 .menu .food-header h5 {
    position: relative;
+   display: inline-block;
+
 }
 
 .menu .food-header h5::before {
    content: "";
    position: absolute;
-   top: 17px;
-   left: 655px;
+   top: 15px;
+   left: -50px;
    background-color: var(--orange800--);
    width: 45px;
    height: 2px;
@@ -273,8 +291,8 @@ section .service .service-item p {
 .menu .food-header h5::after {
    content: "";
    position: absolute;
-   top: 17px;
-   right: 655px;
+   top: 15px;
+   right: -50px;
    background-color: var(--orange800--);
    width: 45px;
    height: 2px;
@@ -509,7 +527,11 @@ section .service .service-item p {
 
 
 /* ---------Members--------- */
-.Members .header h5{
+.member .header div:first-child {
+   text-align: center;
+}
+
+.Members .header h5 {
    position: relative;
 }
 
@@ -519,7 +541,7 @@ section .service .service-item p {
    width: 45px;
    background-color: var(--orange800--);
    top: 20px;
-   left: 455px;
+   left: -50px;
    position: absolute;
 }
 
@@ -529,12 +551,12 @@ section .service .service-item p {
    width: 45px;
    background-color: var(--orange800--);
    top: 20px;
-   right: 455px;
+   right: -50px;
    position: absolute;
 }
 
 .Members .Member-team {
-   margin: 8px;
+   margin: 8px 8px 0px;
    padding: 48px 12px 0px 16px;
    height: calc(100% - 65px);
    overflow: hidden;
@@ -542,7 +564,7 @@ section .service .service-item p {
 }
 
 .Members .Member-team:hover {
-   height: 424px;
+   height: auto;
    transition: .5s;
 }
 
@@ -616,27 +638,31 @@ section .service .service-item p {
    margin-bottom: 96px;
 }
 
-.client-review .review-header {
+.client-review .review-header div:first-child {
+   text-align: center;
+}
+
+.client-review .review-header h5 {
    position: relative;
 }
 
-.client-review .review-header::before {
+.client-review .review-header h5::before {
    content: "";
    height: 2px;
    width: 45px;
    background-color: var(--orange800--);
    top: 20px;
-   left: 455px;
+   left: 550px;
    position: absolute;
 }
 
-.client-review .review-header::after {
+.client-review .review-header h5::after {
    content: "";
    height: 2px;
    width: 45px;
    background-color: var(--orange800--);
    top: 20px;
-   right: 455px;
+   right: 550px;
    position: absolute;
 }
 
